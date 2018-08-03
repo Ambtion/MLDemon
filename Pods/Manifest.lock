@@ -1,0 +1,30 @@
+PODS:
+  - Masonry (1.0.2)
+  - ProgressHUD (2.51)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SYToastView (0.0.1):
+    - Masonry (= 1.0.2)
+    - SDWebImage (= 4.0.0)
+
+DEPENDENCIES:
+  - ProgressHUD
+  - SYToastView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - ProgressHUD
+    - SDWebImage
+    - SYToastView
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  ProgressHUD: 54b4c2fa202bf3da7dddc1c698ae4e6376333bd9
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SYToastView: be44c5cfebfa26e2d7fcd04be7d729bceeb85bb6
+
+PODFILE CHECKSUM: 02f21a7ee2cd00cf437d4ed1617565007b933a23
+
+COCOAPODS: 1.5.0

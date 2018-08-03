@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B18BBB6982BD6E116F691E0 /* libPods-MLDemon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E61607E83BD46D9793CAE4 /* libPods-MLDemon.a */; };
+		B8376A7E20B4249C007C977D /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B8376A7D20B4249C007C977D /* SqueezeNet.mlmodel */; };
+		B85872E020D8D6CE003FBBD3 /* BWVisonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B85872DF20D8D6CE003FBBD3 /* BWVisonTool.m */; };
+		B85872E220D8D730003FBBD3 /* BWRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85872E120D8D730003FBBD3 /* BWRootController.m */; };
+		B85872E520D8D7D6003FBBD3 /* BWVisionData.m in Sources */ = {isa = PBXBuildFile; fileRef = B85872E420D8D7D6003FBBD3 /* BWVisionData.m */; };
+		B85872E820D8F2DA003FBBD3 /* BWViewDrawTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B85872E720D8F2DA003FBBD3 /* BWViewDrawTool.m */; };
+		B8BC424720D11366003D5CC7 /* BWCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC424620D11366003D5CC7 /* BWCamPreviewView.m */; };
+		B8BC424A20D20F6A003D5CC7 /* BWPixelBufferUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BC424920D20F69003D5CC7 /* BWPixelBufferUtils.m */; };
 		B8E05D8D20A0453F0043C8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E05D8C20A0453F0043C8F1 /* AppDelegate.m */; };
-		B8E05D9020A0453F0043C8F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E05D8F20A0453F0043C8F1 /* ViewController.m */; };
-		B8E05D9320A0453F0043C8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E05D9120A0453F0043C8F1 /* Main.storyboard */; };
 		B8E05D9520A045420043C8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8E05D9420A045420043C8F1 /* Assets.xcassets */; };
-		B8E05D9820A045420043C8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E05D9620A045420043C8F1 /* LaunchScreen.storyboard */; };
 		B8E05D9B20A045420043C8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E05D9A20A045420043C8F1 /* main.m */; };
+		B8E05DA520A13E320043C8F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E05DA420A13E320043C8F1 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28BCA9E583194E41A098D0A7 /* Pods-MLDemon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLDemon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLDemon/Pods-MLDemon.debug.xcconfig"; sourceTree = "<group>"; };
+		50E61607E83BD46D9793CAE4 /* libPods-MLDemon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLDemon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		890AB2DE844CF5F42F32A4F9 /* Pods-MLDemon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLDemon.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLDemon/Pods-MLDemon.release.xcconfig"; sourceTree = "<group>"; };
+		B8376A7D20B4249C007C977D /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		B85872DE20D8D6CE003FBBD3 /* BWVisonTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWVisonTool.h; sourceTree = "<group>"; };
+		B85872DF20D8D6CE003FBBD3 /* BWVisonTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWVisonTool.m; sourceTree = "<group>"; };
+		B85872E120D8D730003FBBD3 /* BWRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWRootController.m; sourceTree = "<group>"; };
+		B85872E320D8D7D6003FBBD3 /* BWVisionData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWVisionData.h; sourceTree = "<group>"; };
+		B85872E420D8D7D6003FBBD3 /* BWVisionData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWVisionData.m; sourceTree = "<group>"; };
+		B85872E620D8F2DA003FBBD3 /* BWViewDrawTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWViewDrawTool.h; sourceTree = "<group>"; };
+		B85872E720D8F2DA003FBBD3 /* BWViewDrawTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWViewDrawTool.m; sourceTree = "<group>"; };
+		B85872E920DA4982003FBBD3 /* MLDemon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MLDemon.entitlements; sourceTree = "<group>"; };
+		B8BC424520D11365003D5CC7 /* BWCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCamPreviewView.h; sourceTree = "<group>"; };
+		B8BC424620D11366003D5CC7 /* BWCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCamPreviewView.m; sourceTree = "<group>"; };
+		B8BC424820D20F69003D5CC7 /* BWPixelBufferUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWPixelBufferUtils.h; sourceTree = "<group>"; };
+		B8BC424920D20F69003D5CC7 /* BWPixelBufferUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWPixelBufferUtils.m; sourceTree = "<group>"; };
 		B8E05D8820A0453F0043C8F1 /* MLDemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLDemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E05D8B20A0453F0043C8F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B8E05D8C20A0453F0043C8F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B8E05D8E20A0453F0043C8F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B8E05D8F20A0453F0043C8F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B8E05D9220A0453F0043C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8E05D9420A045420043C8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B8E05D9720A045420043C8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8E05D9920A045420043C8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8E05D9A20A045420043C8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8E05DA120A046650043C8F1 /* BWRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWRootController.h; sourceTree = "<group>"; };
+		B8E05DA420A13E320043C8F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +53,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B18BBB6982BD6E116F691E0 /* libPods-MLDemon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B85872DD20D8D6AC003FBBD3 /* VisionTool */ = {
+			isa = PBXGroup;
+			children = (
+				B85872DE20D8D6CE003FBBD3 /* BWVisonTool.h */,
+				B85872DF20D8D6CE003FBBD3 /* BWVisonTool.m */,
+				B85872E320D8D7D6003FBBD3 /* BWVisionData.h */,
+				B85872E420D8D7D6003FBBD3 /* BWVisionData.m */,
+				B85872E620D8F2DA003FBBD3 /* BWViewDrawTool.h */,
+				B85872E720D8F2DA003FBBD3 /* BWViewDrawTool.m */,
+			);
+			path = VisionTool;
+			sourceTree = "<group>";
+		};
 		B8E05D7F20A0453E0043C8F1 = {
 			isa = PBXGroup;
 			children = (
+				B8E05DA420A13E320043C8F1 /* Default-568h@2x.png */,
+				B8376A7D20B4249C007C977D /* SqueezeNet.mlmodel */,
 				B8E05D8A20A0453F0043C8F1 /* MLDemon */,
 				B8E05D8920A0453F0043C8F1 /* Products */,
+				F467830EF0FE6780EE5CE975 /* Pods */,
+				F5785F04D030B5677EB51629 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +96,38 @@
 		B8E05D8A20A0453F0043C8F1 /* MLDemon */ = {
 			isa = PBXGroup;
 			children = (
+				B85872E920DA4982003FBBD3 /* MLDemon.entitlements */,
+				B85872DD20D8D6AC003FBBD3 /* VisionTool */,
 				B8E05D8B20A0453F0043C8F1 /* AppDelegate.h */,
 				B8E05D8C20A0453F0043C8F1 /* AppDelegate.m */,
-				B8E05D8E20A0453F0043C8F1 /* ViewController.h */,
-				B8E05D8F20A0453F0043C8F1 /* ViewController.m */,
-				B8E05D9120A0453F0043C8F1 /* Main.storyboard */,
+				B8E05DA120A046650043C8F1 /* BWRootController.h */,
+				B85872E120D8D730003FBBD3 /* BWRootController.m */,
+				B8BC424520D11365003D5CC7 /* BWCamPreviewView.h */,
+				B8BC424620D11366003D5CC7 /* BWCamPreviewView.m */,
+				B8BC424820D20F69003D5CC7 /* BWPixelBufferUtils.h */,
+				B8BC424920D20F69003D5CC7 /* BWPixelBufferUtils.m */,
 				B8E05D9420A045420043C8F1 /* Assets.xcassets */,
-				B8E05D9620A045420043C8F1 /* LaunchScreen.storyboard */,
 				B8E05D9920A045420043C8F1 /* Info.plist */,
 				B8E05D9A20A045420043C8F1 /* main.m */,
 			);
 			path = MLDemon;
+			sourceTree = "<group>";
+		};
+		F467830EF0FE6780EE5CE975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28BCA9E583194E41A098D0A7 /* Pods-MLDemon.debug.xcconfig */,
+				890AB2DE844CF5F42F32A4F9 /* Pods-MLDemon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5785F04D030B5677EB51629 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50E61607E83BD46D9793CAE4 /* libPods-MLDemon.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8E05D9E20A045420043C8F1 /* Build configuration list for PBXNativeTarget "MLDemon" */;
 			buildPhases = (
+				62D61F58F11ADB08C6BF373C /* [CP] Check Pods Manifest.lock */,
 				B8E05D8420A0453F0043C8F1 /* Sources */,
 				B8E05D8520A0453F0043C8F1 /* Frameworks */,
 				B8E05D8620A0453F0043C8F1 /* Resources */,
+				5139E1D2C9DCBF8539D2C483 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,6 +163,11 @@
 				TargetAttributes = {
 					B8E05D8720A0453F0043C8F1 = {
 						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.ClassKit = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -128,45 +194,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E05D9820A045420043C8F1 /* LaunchScreen.storyboard in Resources */,
 				B8E05D9520A045420043C8F1 /* Assets.xcassets in Resources */,
-				B8E05D9320A0453F0043C8F1 /* Main.storyboard in Resources */,
+				B8E05DA520A13E320043C8F1 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5139E1D2C9DCBF8539D2C483 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MLDemon/Pods-MLDemon-resources.sh",
+				"${PODS_ROOT}/ProgressHUD/ProgressHUD/ProgressHUD/ProgressHUD.bundle",
+				"${PODS_ROOT}/SYToastView/SYToastView/Resource/popup_alert.png",
+				"${PODS_ROOT}/SYToastView/SYToastView/Resource/popup_alert@2x.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/popup_alert.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/popup_alert@2x.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLDemon/Pods-MLDemon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D61F58F11ADB08C6BF373C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MLDemon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8E05D8420A0453F0043C8F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8E05D9020A0453F0043C8F1 /* ViewController.m in Sources */,
+				B8BC424A20D20F6A003D5CC7 /* BWPixelBufferUtils.m in Sources */,
 				B8E05D9B20A045420043C8F1 /* main.m in Sources */,
+				B85872E220D8D730003FBBD3 /* BWRootController.m in Sources */,
 				B8E05D8D20A0453F0043C8F1 /* AppDelegate.m in Sources */,
+				B85872E820D8F2DA003FBBD3 /* BWViewDrawTool.m in Sources */,
+				B85872E520D8D7D6003FBBD3 /* BWVisionData.m in Sources */,
+				B8376A7E20B4249C007C977D /* SqueezeNet.mlmodel in Sources */,
+				B85872E020D8D6CE003FBBD3 /* BWVisonTool.m in Sources */,
+				B8BC424720D11366003D5CC7 /* BWCamPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B8E05D9120A0453F0043C8F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8E05D9220A0453F0043C8F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B8E05D9620A045420043C8F1 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8E05D9720A045420043C8F1 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B8E05D9C20A045420043C8F1 /* Debug */ = {
@@ -281,32 +376,39 @@
 		};
 		B8E05D9F20A045420043C8F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28BCA9E583194E41A098D0A7 /* Pods-MLDemon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = S544T4W3Q3;
 				INFOPLIST_FILE = MLDemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = baidu.MLDemon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.MLDemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "851add7d-78e2-4be7-81cd-7c31b436fbaf";
+				PROVISIONING_PROFILE_SPECIFIER = xxldevxing;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B8E05DA020A045420043C8F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 890AB2DE844CF5F42F32A4F9 /* Pods-MLDemon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MLDemon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = baidu.MLDemon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.MLDemon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
